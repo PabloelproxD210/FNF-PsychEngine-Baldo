@@ -428,6 +428,10 @@ class PlayState extends MusicBeatState
 					curStage = 'schoolEvil';
 				case 'ugh' | 'guns' | 'stress':
 					curStage = 'tank';
+				case 'quarter':
+					curStage = 'quarter';
+				case 'xylophobia':
+					curStage = 'xylophobia';
 				default:
 					curStage = 'stage';
 			}
@@ -483,6 +487,18 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
+			case 'quarter': //Week 1
+				var bg:BGSprite = new BGSprite('stages/Quarter', -497, -318, 0.98, 1);
+				bg.setGraphicSize(Std.int(bg.width * 2.6));
+				bg.updateHitbox();
+				add(bg);
+
+			case 'xylophobia': //Week 1
+				var bg:BGSprite = new BGSprite('stages/XlophobiaBg', -535, -347, 0.98, 1);
+				bg.setGraphicSize(Std.int(bg.width * 2.5));
+				bg.updateHitbox();
+				add(bg);
+
 			case 'stage': //Week 1
 				var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
 				add(bg);
@@ -3839,6 +3855,13 @@ class PlayState extends MusicBeatState
 	public var transitioning = false;
 	public function endSong():Void
 	{
+		if(isStoryMode && curStage == 'xylophobia'){
+			ClientPrefs.extras = false;
+			FlxG.save.data.extras = false;
+			FlxG.save.flush();
+			ClientPrefs.loadPrefs();
+		}
+
 		//Should kill you if you tried to cheat
 		if(!startingSong) {
 			notes.forEach(function(daNote:Note) {

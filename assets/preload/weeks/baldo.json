@@ -1,0 +1,41 @@
+{
+	"storyName": "Baldo",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Quarter",
+			"baldo",
+			[
+				6,
+				193,
+				0
+			]
+		],
+		[
+			"Xylophobia",
+			"angrybaldo",
+			[
+				155,
+				13,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Baldo"
+}

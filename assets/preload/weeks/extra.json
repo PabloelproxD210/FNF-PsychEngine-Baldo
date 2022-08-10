@@ -1,0 +1,41 @@
+{
+	"storyName": "Baldo",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "baldo",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Seven-notebooks",
+			"filename",
+			[
+				135,
+				20,
+				0
+			]
+		],
+		[
+			"Webos",
+			"drawe",
+			[
+				255,
+				233,
+				175
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Baldo"
+}

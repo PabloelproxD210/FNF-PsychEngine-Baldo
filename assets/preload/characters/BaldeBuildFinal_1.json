@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-10
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "spooky dance idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-10
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "spooky sing right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				280
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "spooky UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				120,
+				-140
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "spooky DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				-150
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "note sing left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BaldeBuildFinal_1",
+	"position": [
+		-10,
+		30
+	],
+	"healthicon": "baldo",
+	"flip_x": false,
+	"healthbar_colors": [
+		16,
+		194,
+		16
+	],
+	"camera_position": [
+		30,
+		80
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

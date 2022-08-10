@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				130,
+				170
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "note sing left"
+		},
+		{
+			"offsets": [
+				200,
+				176
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "spooky sing right"
+		},
+		{
+			"offsets": [
+				140,
+				130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "spooky DOWN note"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "danceLeft",
+			"fps": 12,
+			"name": "spooky dance idle",
+			"indices": [
+				0,
+				2,
+				6
+			]
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "danceRight",
+			"fps": 12,
+			"name": "spooky dance idle",
+			"indices": [
+				8,
+				10,
+				12,
+				14
+			]
+		},
+		{
+			"offsets": [
+				190,
+				746
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "spooky UP NOTE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/drawebos!!!!1",
+	"position": [
+		-50,
+		250
+	],
+	"healthicon": "drawe",
+	"flip_x": false,
+	"healthbar_colors": [
+		249,
+		224,
+		9
+	],
+	"camera_position": [
+		20,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

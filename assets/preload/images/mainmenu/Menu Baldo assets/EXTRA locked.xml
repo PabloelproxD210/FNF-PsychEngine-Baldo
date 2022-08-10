@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EXTRA locked.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="extra basic lock0000" x="25" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0001" x="25" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0002" x="25" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0003" x="294" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0004" x="294" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0005" x="294" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0006" x="563" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0007" x="563" y="25" width="219" height="98"/>
+	<SubTexture name="extra basic lock0008" x="563" y="25" width="219" height="98"/>
+	<SubTexture name="extra white lock0000" x="25" y="173" width="400" height="113" frameX="0" frameY="-1" frameWidth="400" frameHeight="114"/>
+	<SubTexture name="extra white lock0001" x="475" y="173" width="400" height="114"/>
+	<SubTexture name="extra white lock0002" x="25" y="337" width="397" height="109" frameX="0" frameY="-3" frameWidth="400" frameHeight="114"/>
+</TextureAtlas>

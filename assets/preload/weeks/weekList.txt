@@ -1,3 +1,5 @@
+baldo
+extra
 tutorial
 week1
 week2

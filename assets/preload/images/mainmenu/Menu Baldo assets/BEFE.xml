@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BEFE.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BEFE0000" x="25" y="25" width="520" height="419" frameX="-3" frameY="-17" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0001" x="25" y="25" width="520" height="419" frameX="-3" frameY="-17" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0002" x="595" y="25" width="516" height="428" frameX="-2" frameY="-13" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0003" x="595" y="25" width="516" height="428" frameX="-2" frameY="-13" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0004" x="1161" y="25" width="513" height="438" frameX="-1" frameY="-8" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0005" x="1161" y="25" width="513" height="438" frameX="-1" frameY="-8" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0006" x="25" y="513" width="509" height="451" frameX="0" frameY="0" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0007" x="25" y="513" width="509" height="451" frameX="0" frameY="0" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0008" x="25" y="513" width="509" height="451" frameX="0" frameY="0" frameWidth="523" frameHeight="451"/>
+	<SubTexture name="BEFE0009" x="25" y="513" width="509" height="451" frameX="0" frameY="0" frameWidth="523" frameHeight="451"/>
+</TextureAtlas>

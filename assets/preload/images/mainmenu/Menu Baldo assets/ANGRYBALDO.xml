@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ANGRYBALDO.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ANGRYBALDO0000" x="25" y="25" width="411" height="658" frameX="-42" frameY="-12" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0001" x="486" y="25" width="409" height="657" frameX="-43" frameY="-12" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0002" x="945" y="25" width="438" height="655" frameX="-29" frameY="-10" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0003" x="1433" y="25" width="440" height="656" frameX="-27" frameY="-10" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0004" x="1923" y="25" width="467" height="658" frameX="-13" frameY="-4" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0005" x="2440" y="25" width="467" height="657" frameX="-14" frameY="-4" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0006" x="2957" y="25" width="495" height="653" frameX="0" frameY="-2" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0007" x="3502" y="25" width="494" height="654" frameX="0" frameY="-2" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0008" x="25" y="733" width="495" height="656" frameX="0" frameY="0" frameWidth="495" frameHeight="670"/>
+	<SubTexture name="ANGRYBALDO0009" x="570" y="733" width="495" height="655" frameX="0" frameY="0" frameWidth="495" frameHeight="670"/>
+</TextureAtlas>

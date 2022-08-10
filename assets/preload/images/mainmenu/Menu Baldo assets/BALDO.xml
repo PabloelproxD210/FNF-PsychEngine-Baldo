@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BALDO.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BALDO0000" x="25" y="25" width="369" height="660" frameX="-11" frameY="-12" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0001" x="444" y="25" width="368" height="658" frameX="-11" frameY="-12" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0002" x="862" y="25" width="373" height="655" frameX="-20" frameY="-14" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0003" x="1285" y="25" width="374" height="657" frameX="-20" frameY="-14" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0004" x="1709" y="25" width="394" height="664" frameX="-14" frameY="-4" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0005" x="2153" y="25" width="392" height="663" frameX="-15" frameY="-4" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0006" x="2595" y="25" width="422" height="658" frameX="0" frameY="-6" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0007" x="3067" y="25" width="421" height="659" frameX="0" frameY="-6" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0008" x="3538" y="25" width="421" height="665" frameX="0" frameY="0" frameWidth="422" frameHeight="672"/>
+	<SubTexture name="BALDO0009" x="25" y="740" width="422" height="664" frameX="0" frameY="0" frameWidth="422" frameHeight="672"/>
+</TextureAtlas>

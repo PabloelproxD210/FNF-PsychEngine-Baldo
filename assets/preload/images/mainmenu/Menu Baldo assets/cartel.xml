@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cartel.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cartel0000" x="25" y="25" width="619" height="293"/>
+	<SubTexture name="cartel0001" x="25" y="25" width="619" height="293"/>
+	<SubTexture name="cartel0002" x="25" y="25" width="619" height="293"/>
+	<SubTexture name="cartel0003" x="694" y="25" width="619" height="292" frameX="0" frameY="0" frameWidth="619" frameHeight="293"/>
+	<SubTexture name="cartel0004" x="694" y="25" width="619" height="292" frameX="0" frameY="0" frameWidth="619" frameHeight="293"/>
+	<SubTexture name="cartel0005" x="694" y="25" width="619" height="292" frameX="0" frameY="0" frameWidth="619" frameHeight="293"/>
+	<SubTexture name="cartel0006" x="1363" y="25" width="619" height="291" frameX="0" frameY="0" frameWidth="619" frameHeight="293"/>
+	<SubTexture name="cartel0007" x="1363" y="25" width="619" height="291" frameX="0" frameY="0" frameWidth="619" frameHeight="293"/>
+	<SubTexture name="cartel0008" x="1363" y="25" width="619" height="291" frameX="0" frameY="0" frameWidth="619" frameHeight="293"/>
+</TextureAtlas>

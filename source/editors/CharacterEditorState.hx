@@ -78,6 +78,10 @@ class CharacterEditorState extends MusicBeatState
 	var cameraFollowPointer:FlxSprite;
 	var healthBarBG:FlxSprite;
 
+	//shadow referencia
+	var dad:Character;
+    var bf:Character; //hecho por mi :D
+
 	override function create()
 	{
 		//FlxG.sound.playMusic(Paths.music('breakfast'), 0.5);
@@ -95,6 +99,19 @@ class CharacterEditorState extends MusicBeatState
 
 		bgLayer = new FlxTypedGroup<FlxSprite>();
 		add(bgLayer);
+
+		dad = new Character(400, 0, "dad");
+        dad.color = 0xFF000000;
+        dad.alpha = 1 / 3;
+        //dad.visible = true;
+        add(dad);
+
+		bf = new Boyfriend(400, 350, "bf");
+        bf.color = 0xFF000000;
+        bf.alpha = 1 / 3;
+        //bf.visible = char.isPlayer;
+        add(bf);
+
 		charLayer = new FlxTypedGroup<Character>();
 		add(charLayer);
 
@@ -959,8 +976,12 @@ class CharacterEditorState extends MusicBeatState
 		var y:Float = char.getMidpoint().y;
 		if(!char.isPlayer) {
 			x += 150 + char.cameraPosition[0];
+			dad.visible = true;
+			bf.visible = false;
 		} else {
 			x -= 100 + char.cameraPosition[0];
+			bf.visible = true;
+			dad.visible = false;
 		}
 		y -= 100 - char.cameraPosition[1];
 
