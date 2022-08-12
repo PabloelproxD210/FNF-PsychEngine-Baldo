@@ -248,6 +248,8 @@ class PlayState extends MusicBeatState
 	var bgGirls:BackgroundGirls;
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
+	
+	var watermark:FlxText;
 
 	var tankWatchtower:BGSprite;
 	var tankGround:BGSprite;
@@ -1196,6 +1198,13 @@ class PlayState extends MusicBeatState
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
+	
+	        watermark = new FlxText(scoreTxt.x + 30, scoreTxt.y, 0, "FNF vs Baldo V1", 20);
+	        watermark.scrollFactor.set();
+	        watermark.borderSize = 1.25;
+	        watermark.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+	        watermark.visible = !ClientPrefs.hideHud;
+	        add(watermark);
 
 		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "BOTPLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -2331,9 +2340,33 @@ class PlayState extends MusicBeatState
 	var lastReportedPlayheadPosition:Int = 0;
 	var songTime:Float = 0;
 
+        function leCoolSongName(durationIn:Float = 1, durationOut:Float = 1){
+	var songName:String = Paths.formatToSongPath(SONG.song);
+	var leBox:FlxSprite = new FlxSprite(-550, 300).loadGraphic(Paths.image('shit/songbar'));
+	leBox.scrollFactor.set();
+	leBox.cameras = [camHUD];
+	add(leBox);
+	var leSongName:FlxText = new FlxText(-200, 320, 0, songName, 60);
+	leSongName.scrollFactor.set();
+	leSongName.cameras = [camHUD];
+	leSongName.setFormat(Paths.font("vcr.tff"), 60, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+	add(leSongName);
+	new FlxTimer().start(1, function(tmr:FlxTimer)
+		{
+	FlxTween.tween(leBox, {x: -100}, durationIn, {type:PERSIST, ease:FlxEase.backInOut});
+	FlxTween.tween(leSongName, {x: 100}, durationIn, {type:PERSIST, ease:FlxEase.backInOut});
+		});
+	new FlxTimer().start(6, function(tmr:FlxTimer)
+		{
+	FlxTween.tween(leSongName, {x: -200}, durationOut, {type:PERSIST, ease:FlxEase.backInOut});
+	FlxTween.tween(leBox, {x: -550}, durationOut, {type:PERSIST, ease:FlxEase.backInOut});
+		});
+	}
+
 	function startSong():Void
 	{
 		startingSong = false;
+		leCoolSongName(1, 1);
 
 		previousFrameTime = FlxG.game.ticks;
 		lastReportedPlayheadPosition = 0;
