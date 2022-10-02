@@ -44,7 +44,7 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
-	public static var extraLocked:Bool = ClientPrefs.extras;
+	public static var extraLocked:Bool = true;
 	var mainsheets:FlxSprite;
 	var charchance:Int;
 	var char:FlxSprite;
